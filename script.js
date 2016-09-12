@@ -4,8 +4,7 @@ The Quiz
 */
 
 //Set the score to zero
-var playerScore = 0
-console.log( "opening score " + playerScore )
+var playerScore = 0;
 
 /* Quesion 1
   A) Ask Question
@@ -58,9 +57,9 @@ if (answerFive.toUpperCase() === "I'M HUNGRY" || answerFive.toUpperCase() === "I
 
 if ( playerScore === 5 ) {
   var prize = "You got " + playerScore + " answers correct! You win 100 Subway sandwiches.  Just tell the cashier, \"It's for a duck!\""
-} else if ( playerScore <= 4 && playerScore >= 3 ){
+} else if ( playerScore >= 3 ){
   var prize = "You got " + playerScore + " answers correct! You win 10 frozen bananas."
-} else if ( playerScore <=2 && playerScore >= 1 ){
+} else if ( playerScore >= 1 ){
   var prize = "You got " + playerScore + " answers correct! You really should listen to more Mitch. Your life will improve..."
 } else {
   var prize = "You got " + playerScore + " answers correct... Seriously? You have some work to do.  Go listen to Mitch, NOW!!!!"
